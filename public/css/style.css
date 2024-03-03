@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+}
+
+body {
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+  display: grid;
+  place-content: center;
+  padding: 1rem;
+}
+
+span {
+  color: #0098da;
+}
+
+p {
+  color: #444444;
+}
