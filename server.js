@@ -27,6 +27,7 @@ app.use("/", express.static(path.join(__dirname, "public")));
 
 app.use("/", require("./routes/root"));
 app.use("/users", require("./routes/userRoutes"));
+app.use("/stores", require("./routes/storeRoutes"));
 app.use("/drugs", require("./routes/drugRoutes"));
 app.use("/coupons", require("./routes/couponRoutes"));
 app.use("/orders", require("./routes/orderRoutes"));
